@@ -14,6 +14,7 @@ function App() {
         setFirstShortLink(data.result.short_link);
         setSecondShortLink(data.result.short_link2);
       });
+    url.current.value = "";
   };
 
   return (
